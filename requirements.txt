@@ -4,5 +4,4 @@ streamlit
 tensorflow-cpu
 matplotlib
 seaborn
-opencv-contrib-python==4.4.0.46
 Pillow

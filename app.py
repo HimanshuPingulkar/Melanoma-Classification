@@ -12,7 +12,6 @@ st.write("""
 """)
 
 file = st.file_uploader("Please upload image file", type=["jpg", "png"])
-from cv2 import cv2
 from PIL import Image, ImageOps
 import numpy as np
 def import_and_predict(image_data, model):
@@ -31,6 +30,6 @@ else:
     st.image(image, use_column_width=True)
     predictions = import_and_predict(image, model)
     score = tf.nn.softmax(predictions[0])
-    class_names = ['benign', 'malignant']
-    string = "This image most likely belongs to {} with a {:.2f} percent confidence.".format(class_names[np.argmax(score)], 100 * np.max(score))
+    class_names = ['Benign', 'Malignant']
+    string = "This image most likely belongs to {} with a {:.2f}% confidence.".format(class_names[np.argmax(score)], 100 * np.max(score))
     st.success(string)
