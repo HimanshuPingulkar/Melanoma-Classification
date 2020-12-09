@@ -11,4 +11,3 @@ Pillow
 opencv-python
 seaborn
 tqdm
-os-sys
