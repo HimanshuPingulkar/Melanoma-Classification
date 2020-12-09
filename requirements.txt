@@ -16,7 +16,6 @@ keras
 PIL
 cv2
 seaborn
-matplotlib
 tqdm
 os
 
