@@ -14,7 +14,7 @@ streamlit
 tensorflow
 keras 
 Pillow
-cv2
+opencv-python
 seaborn
 tqdm
 os
