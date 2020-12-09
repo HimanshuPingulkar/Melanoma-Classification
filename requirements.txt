@@ -13,12 +13,8 @@ flasgger==0.9.4
 streamlit
 tensorflow
 keras 
-PIL
+Pillow
 cv2
 seaborn
 tqdm
 os
-
-
-
-
