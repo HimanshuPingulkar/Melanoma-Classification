@@ -7,8 +7,11 @@ Skin cancer is the most prevalent type of cancer. Melanoma, specifically, is res
 
 
 Cancer Regions:
+<br>
 ![Regions](https://github.com/HimanshuPingulkar/Melanoma-Classification/blob/main/Project%20Screenshots/4.png?raw=true)
-
+<br>
 
 Frontend:
+<br>
 ![Frontend](https://github.com/HimanshuPingulkar/Melanoma-Classification/blob/main/Project%20Screenshots/Screenshot%20(18).png?raw=true)
+<br>
